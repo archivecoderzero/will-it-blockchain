@@ -33,20 +33,19 @@
             <h1 class="display-4">Will It Block Chain it? <i class="fab fa-bitcoin"></i></h1>
             <p class="lead">Input an item and the app will process it in the blockchain to see if it is viable </p>
             <div class="row">
-                <div class="col-3 main">
+                <div class="col-md-1"></div>
+                <div class="col-md-4">
                     <br>
                     <br>
                     <br>
                     <form>
                         <div class="form-group row">
-                            <label for="username_">Input the Item that You Want Block Chain : </label>
                             <input class="form-control" id="username" type="text">
+                            <button onClick="nowLoading.load(),progressBar.pBarLoad();" class="btn btn-danger" id="submit" >Blockchainize It!</button> 
+                            <br>
+
+                            <button onClick="location.reload()" class="btn btn-primary" id="clear" type="submit">Reset</button>
                         </div>
-
-                        <button onClick="nowLoading.load(),progressBar.pBarLoad();" class="btn btn-danger" id="submit" >Blockchainize It!</button> 
-
-                        <button onClick="location.reload()" class="btn btn-primary" id="clear" type="submit">Reset</button>
-
                     </form>
                     <br>
                 </div>
@@ -54,7 +53,7 @@
                 <br>
                 <br>
                 <br>
-                <div class="col-9">
+                <div class="col-md-5">
                     <br>
                     <br>
                     <ol>
@@ -66,9 +65,7 @@
                       </div>
 
                 </div>
-
-
-
+                <div class="col-md-2"></div>
         </div>
     </div>
     </div>
