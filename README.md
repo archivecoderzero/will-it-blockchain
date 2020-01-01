@@ -1,2 +1,3 @@
 # will-it-blockchain
-will-it-blockchain
+
+Some Coding Excercise :P
