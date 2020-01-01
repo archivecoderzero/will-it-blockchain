@@ -18,6 +18,7 @@ $(document).on("click", "#clear", clear);
 const nowLoading = {
     load() {setTimeout(()=>{$("#results").html("Initializing...");
 },1000);{setTimeout(()=>{$("#results").html("Running " + blockchainize +" to the Blockchain" ) ;
+},1000)};{setTimeout(()=>{$("#results1").html("Checking " + blockchainize );
 },1500)};{setTimeout(()=>{$("#results").html("5% completed");
 },2000)};{setTimeout(()=>{$("#results").html("10%");
 },2300)};{setTimeout(()=>{$("#results").html("15%");
@@ -59,16 +60,47 @@ const nowLoading = {
 },11300)};{setTimeout(()=>{$("#results").html("96%");
 },11500)};{setTimeout(()=>{$("#results").html("97%");
 },12000)};{setTimeout(()=>{$("#results").html(blockchainize + " wont block chain");
+},12000)};{setTimeout(()=>{$("#results1").html("Yeah looks like " +blockchainize + "wont blockchain" );
+
 },13000)}}
 };
 
 
-
   const progressBar = {
     pBarLoad() {setTimeout(()=>{$("#pBar").css("width", "1%");
-},1000);{setTimeout(()=>{$("#pBar").css("width", "2%") ;
-},1500)};{setTimeout(()=>{$("#pBar").css("width", "3%");
-},2000)};{setTimeout(()=>{$("#pBar").css("width", "50%");
-},2300)}}}
+},1000);{setTimeout(()=>{$("#pBar").css("width", "10%") ;
+},1500)};{setTimeout(()=>{$("#pBar").css("width", "15%");
+},2300)};{setTimeout(()=>{$("#pBar").css("width", "16%");
+},2400)};{setTimeout(()=>{$("#pBar").css("width", "19%");
+},2600)};{setTimeout(()=>{$("#pBar").css("width", "20%");
+},2650)};{setTimeout(()=>{$("#pBar").css("width", "21%");
+},2700)};{setTimeout(()=>{$("#pBar").css("width", "25%");
+},3000)};{setTimeout(()=>{$("#pBar").css("width", "31%");
+},4000)};{setTimeout(()=>{$("#pBar").css("width", "34%");
+},4500)};{setTimeout(()=>{$("#pBar").css("width", "35%");
+},4800)};{setTimeout(()=>{$("#pBar").css("width", "40%");
+},4900)};{setTimeout(()=>{$("#pBar").css("width", "46%");
+},5100)};{setTimeout(()=>{$("#pBar").css("width", "50%");
+},5700)};{setTimeout(()=>{$("#pBar").css("width", "51%");
+},6000)};{setTimeout(()=>{$("#pBar").css("width", "50%");
+},6900)};{setTimeout(()=>{$("#pBar").css("width", "65%");
+},7000)};{setTimeout(()=>{$("#pBar").css("width", "69%");
+},8000)};{setTimeout(()=>{$("#pBar").css("width", "79%");
+},9000)};{setTimeout(()=>{$("#pBar").css("width", "80%");
+},9900)};{setTimeout(()=>{$("#pBar").css("width", "89%");
+},10500)};{setTimeout(()=>{$("#pBar").css("width", "90%");
+},11100)};{setTimeout(()=>{$("#pBar").css("width", "91%");
+},11300)};{setTimeout(()=>{$("#pBar").css("width", "92%");
+},12000)};{setTimeout(()=>{$("#pBar").css("width", "96%");
+},12850)};{setTimeout(()=>{$("#pBar").css("width", "100%");
+},12900)};{setTimeout(()=>{$("#pBar").css("width", "0%");
+},13000)
+
+}
+
+}
+
+
+}
 
 

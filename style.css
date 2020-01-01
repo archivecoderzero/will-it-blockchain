@@ -14,11 +14,11 @@ body {
 }
 
 .navbar.navbar-light.bg-light {
-    background-image: url(nav.jpg);
+    background-image: url(bgnav.jpg);
 }
 
 .navbar-brand.mb-0.h1 {
-    color: black;
+    color: white;
 }
 
 #results {
