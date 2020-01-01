@@ -100,9 +100,9 @@ canvas{
 }
 
 .centerize {
+  display: block;
   margin-left: auto;
-  margin-right: auto;
-}
+  margin-right: auto;}
 
 .jumbotronX{
   text-align: center;
@@ -112,17 +112,16 @@ canvas{
   height:100%;
   padding:30px;
   border-radius:25px;
-  color: black;
+  color: white;
   z-index: 5;
 
 }
 
-.jumbotronX .overlay{
+.jumbotronX .overlay1{
   position: absolute;
   background:white;
   opacity:0.8;
   height:100%;
-  width:93%;
-  z-index: -1;
-  border-radius:25px;
+  width:100%;
+  z-index: 0;
 }
