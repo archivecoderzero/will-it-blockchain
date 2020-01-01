@@ -2,10 +2,6 @@
     text-align: center;
     font-size: 10px;
 }
-body {
-    background-image: url(eyebg11.jpg)
-}
-
 .jumbotron.jumbotron-fluid {
     background-image: url(eyebg1.jpg);
     background-position: center;
@@ -29,3 +25,11 @@ body {
     color: black;
 }
 
+.overlay {
+    position: absolute;
+}
+
+.jumbotron {
+    position: relative;
+
+}
