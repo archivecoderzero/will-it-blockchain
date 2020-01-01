@@ -1,0 +1,31 @@
+.card-footer {
+    text-align: center;
+    font-size: 10px;
+}
+body {
+    background-image: url(eyebg11.jpg)
+}
+
+.jumbotron.jumbotron-fluid {
+    background-image: url(eyebg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar.navbar-light.bg-light {
+    background-image: url(nav.jpg);
+}
+
+.navbar-brand.mb-0.h1 {
+    color: black;
+}
+
+#results {
+    font-size: 25px;
+}
+
+.links {
+    color: black;
+}
+
