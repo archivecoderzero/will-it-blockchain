@@ -36,9 +36,9 @@
                             <input class="form-control" id="username" type="text">
                         </div>
 
-                        <button onClick="nowLoading.load()" class="btn btn-danger" id="submit" >Blockchainize It!</button> 
-                        <button
-                            class="btn btn-primary" id="clear" type="submit">Clear Link</button>
+                        <button onClick="nowLoading.load(),progressBar.pBarLoad();" class="btn btn-danger" id="submit" >Blockchainize It!</button> 
+
+                        <button class="btn btn-primary" id="clear" type="submit">Reset</button>
 
                     </form>
                     <br>
@@ -58,8 +58,11 @@
                     <ol>
                         <div id='results'> </div>
                         <div id='results1'> </div>
-
                     </ol>
+                    <div class="progress">
+                        <div id="pBar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+                      </div>
+
                 </div>
 
 

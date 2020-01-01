@@ -1,15 +1,6 @@
 function submit ( ) {
     event.preventDefault();
     blockchainize = $("#username").val().trim();
-    var resultDiv = $("<li>");
-    var linkable = $("<a>");
-    linkable.addClass("links")
-    linkable.attr("href", the);
-    linkable.attr("target","_blank")
-    linkable.append(the)
-    $("#results").append(resultDiv);
-    resultDiv.append(linkable);
-
 }
 
 
@@ -22,7 +13,6 @@ function clear ( ) {
 $(document).on("click", "#submit", submit);
 
 $(document).on("click", "#clear", clear);
-
 
 
 const nowLoading = {
@@ -71,4 +61,14 @@ const nowLoading = {
 },12000)};{setTimeout(()=>{$("#results").html(blockchainize + " wont block chain");
 },13000)}}
 };
+
+
+
+  const progressBar = {
+    pBarLoad() {setTimeout(()=>{$("#pBar").css("width", "1%");
+},1000);{setTimeout(()=>{$("#pBar").css("width", "2%") ;
+},1500)};{setTimeout(()=>{$("#pBar").css("width", "3%");
+},2000)};{setTimeout(()=>{$("#pBar").css("width", "50%");
+},2300)}}}
+
 
