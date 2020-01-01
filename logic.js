@@ -68,7 +68,7 @@ const nowLoading = {
 },11000)};{setTimeout(()=>{$("#results").html("95%");
 },11300)};{setTimeout(()=>{$("#results").html("96%");
 },11500)};{setTimeout(()=>{$("#results").html("97%");
-},12000)};{setTimeout(()=>{$("#results").html(blockchainize + " wont BlockChain");
+},12000)};{setTimeout(()=>{$("#results").html(blockchainize + " wont block chain");
 },13000)}}
 };
 
