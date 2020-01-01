@@ -43,7 +43,7 @@ const nowLoading = {
 },6500)};{setTimeout(()=>{$("#results1").html("Rerouting " + blockchainize);
 },6800)};{setTimeout(()=>{$("#results").html("60%");
 },6900)};{setTimeout(()=>{$("#results").html("65%");
-},7000)};{setTimeout(()=>{$("#results1").html("Chaining " + blockchainize + "to the block");
+},7000)};{setTimeout(()=>{$("#results1").html("Chaining " + blockchainize + " to the block");
 },7500)};{setTimeout(()=>{$("#results").html("69%");
 },8000)};{setTimeout(()=>{$("#results").html("70%");
 },8600)};{setTimeout(()=>{$("#results").html("79%");
@@ -60,7 +60,7 @@ const nowLoading = {
 },11300)};{setTimeout(()=>{$("#results").html("96%");
 },11500)};{setTimeout(()=>{$("#results").html("97%");
 },12000)};{setTimeout(()=>{$("#results").html(blockchainize + " wont block chain");
-},12000)};{setTimeout(()=>{$("#results1").html("Yeah looks like " +blockchainize + "wont blockchain" );
+},12000)};{setTimeout(()=>{$("#results1").html("Yeah looks like " +blockchainize + " wont blockchain" );
 
 },13000)}}
 };
